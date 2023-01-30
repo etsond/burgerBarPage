@@ -1,3 +1,3 @@
 # burgerBarPage
 
-Welcome page using html and css
+A simple respnsive page for a client.
