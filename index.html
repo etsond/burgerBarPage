@@ -1,48 +1,53 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Retro Burger Bar</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <!-- navigatio bar of the page -->
-    <div class="banner">
-      <div class="navbar">
-        <!-- logo -->
-        <img src="logo.png" class="logo" alt="Bar-Logo" />
-        <!-- list for the navigatio -->
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Staff</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        </header>
-        <!-- content of the page -->
+      <div class="menu-toggle">
+        <div class="burger"></div>
       </div>
-      <div class="content">
-        <h1>Come Enjoy Refreshing Drinks Today!!</h1>
-        <!-- message for the user -->
-        <p>
-          We welcome everyone from every walk of life Press the Bell Icon To let
-          <br />us know You're coming!!! Come TODAY!
-        </p>
-        <!-- buttons of the page -->
-        <div>
-          <button type="button"><span></span> Our Team</button>
-          <button type="button"><span></span>Feedbacks</button>
+      <div class="banner">
+        <div class="navbar">
+          <img src="image/logo.png" class="logo" alt="Bar-Logo" />
+          <!-- hambuger menu -->
+          <div class="menu-burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </div>
+          <!-- nav menu -->
+          <nav class="menu">
+            <ul class="menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Staff</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </header>
+    <div class="content">
+      <h1>Come Enjoy Refreshing Drinks Today!!</h1>
+      <p>
+        We welcome everyone from every walk of life. Press the Bell Icon to let
+        us know you're coming! Come TODAY!
+      </p>
+      <div>
+        <button type="button"><span></span> Our Team</button>
+        <button type="button"><span></span> Feedbacks</button>
+      </div>
     </div>
+
+    <!-- script for the toggle -->
+
+    <script src="./js/main.js"></script>
   </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head> </head>
-  <body></body>
 </html>
